@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .navbar {
+        display: inline;
+      }
+      .navbar input[type="text"] {
+        margin-top: 5px;
+        font-size: 18px;
+        border: 1px solid black;
+      }
+      .navbar .checkout {
+        margin-top: 5px;
+        float: right;
+      }
+
+      #grid-container {
+        display: grid;
+        grid-template-columns: 320px 320px 320px;
+      }
+
+      .card img {
+        width: 300px;
+        height: 450px;
+      }
+
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin-top: 20px;
+        text-align: center;
+        font-family: arial;
+      }
+      .card button {
+        border: none;
+        padding: 10px;
+        color: white;
+        background-color: black;
+        text-align: center;
+        width: 100%;
+        font-size: 15px;
+      }
+
+      .card .quantityBttn {
+        width: 150px;
+        align-items: center;
+        justify-content: center;
+      }
+      .card .quantityBttn input {
+        width: 50px;
+        border: 1px solid black;
+        font-size: 15px;
+        color: black;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div>
+        <form action="">
+          <input type="text" placeholder="Search..." name="search" />
+          <button type="submit"><img src="search.svg" alt="search" /></button>
+          <button class="checkout">
+            <img src="cart.svg" alt="cart" /> Checkout
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div id="grid-container">
+      <div class="card">
+        <img
+          src="./Images/glassCup.jpg"
+          alt="Wide Glass Cup"
+          style="width: 100%"
+        />
+        <h1>Wide Glass</h1>
+        <p class="price">$24.99</p>
+        <p>This wide glass cup can hold 8 oz of delicious coffee.</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="card">
+        <img
+          src="./Images/blueWhite.jpg"
+          alt="Small Blue/White Cup"
+          style="width: 100%"
+        />
+        <h1>Ocean Waves</h1>
+        <p class="price">$15.50</p>
+        <p>Reminiscent of the ocean, this cup can hold 6 oz of any beverage.</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="card">
+        <img
+          src="./Images/ginkgoCup.jpg"
+          alt="Ginkgo Cup"
+          style="width: 100%"
+        />
+        <h1>Ginkgo Leaves</h1>
+        <p class="price">$17.95</p>
+        <p>
+          Resembling the beautiful Japanese gingko leaves, this cup holds 5 oz.
+        </p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="card">
+        <img
+          src="./Images/brownWhite.jpg"
+          alt="Speckled Cup"
+          style="width: 100%"
+        />
+        <h1>Speckled Brown</h1>
+        <p class="price">$19.99</p>
+        <p>This speckled metal painted mug can keep 8 oz of coffee warm.</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="card">
+        <img
+          src="./Images/tallGlass.jpg"
+          alt="Tall Glass"
+          style="width: 100%"
+        />
+        <h1>Tall Glass</h1>
+        <p class="price">$20.50</p>
+        <p>
+          Tall for those wanting to hold 12 oz of coffee to hit that morning
+          burst.
+        </p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="card">
+        <img
+          src="./Images/topBlue.jpg"
+          alt="Blue Top Cup"
+          style="width: 100%"
+        />
+        <h1>Blue Herringbone</h1>
+        <p class="price">$16.99</p>
+        <p>
+          With a lovely herringbone pattern, this mug can hold 10 oz of coffee.
+        </p>
+        <p><button>Add to Cart</button></p>
+      </div>
+    </div>
+  </body>
+</html>
