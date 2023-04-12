@@ -130,9 +130,14 @@ const Shop = () => {
         <p>Total: ${cartTotal}</p>
         <h3>User Information:</h3>
         <ul>
+          <li>Name: {props.setCustomer.fN}</li>
           <li>Email: {props.setCustomer.e}</li>
           <li>Card Number: {redactedCardNumber}</li>
-          <li>Name: {props.setCustomer.fN}</li>
+          <li>Address: {props.setCustomer.ad}</li>
+          <li>address2: {props.setCustomer.ad2}</li>
+          <li>State: {props.setCustomer.st}</li>
+          <li>City: {props.setCustomer.ci}</li>
+          <li>zipCode: {props.setCustomer.zc}</li>
         </ul>
         <button onClick={() => window.location.reload()}>Back to Browse</button>
       </div>

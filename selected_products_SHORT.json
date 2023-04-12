@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Wide Glass",
+    "price": 24.99,
+    "description": "This wide glass cup can hold 8 oz of delicious coffee.",
+    "image": "https://github.com/alhdhd1991/coms319/blob/main/assignment2/Images/glassCup.jpg?raw=true"
+  },
+  {
+    "id": 2,
+    "title": "Ocean Waves",
+    "price": 15.5,
+    "description": "Reminiscent of the ocean, this cup can hold 6 oz of any beverage.",
+    "image": "https://github.com/alhdhd1991/coms319/blob/main/assignment2/Images/blueWhite.jpg?raw=true"
+  },
+  {
+    "id": 3,
+    "title": "Ginkgo Leaves",
+    "price": 17.95,
+    "description": "Resembling the beautiful Japanese gingko leaves, this cup holds 5 oz.",
+    "image": "https://github.com/alhdhd1991/coms319/blob/main/assignment2/Images/ginkgoCup.jpg?raw=true"
+  },
+  {
+    "id": 4,
+    "title": "Speckled Brown",
+    "price": 19.99,
+    "description": "This speckled metal painted mug can keep 8 oz of coffee warm.",
+    "image": "https://github.com/alhdhd1991/coms319/blob/main/assignment2/Images/brownWhite.jpg?raw=true"
+  },
+  {
+    "id": 5,
+    "title": "Tall Glass",
+    "price": 20.5,
+    "description": "Tall for those wanting to hold 12 oz of coffee to hit that morning burst.",
+    "image": "https://github.com/alhdhd1991/coms319/blob/main/assignment2/Images/tallGlass.jpg?raw=true"
+  },
+  {
+    "id": 6,
+    "title": "Blue Herringbone",
+    "price": 16.99,
+    "description": "With a lovely herringbone pattern, this mug can hold 10 oz of coffee.",
+    "image": "https://github.com/alhdhd1991/coms319/blob/main/assignment2/Images/topBlue.jpg?raw=true"
+  }
+]
